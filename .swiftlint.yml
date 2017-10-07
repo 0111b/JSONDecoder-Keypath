@@ -1,0 +1,41 @@
+included: # paths to include during linting. `--path` is ignored if present.
+  - Sources
+  - Tests
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle)
+
+disabled_rules: # rule identifiers to exclude from running
+  - line_length
+  - todo
+  - nesting
+opt_in_rules: # some rules are only opt-in
+  - empty_count
+  - explicit_init
+  - closure_spacing
+  - overridden_super_call
+  - redundant_nil_coalescing
+  - private_outlet
+  - operator_usage_whitespace
+  - first_where
+  - fatal_error_message
+  - vertical_parameter_alignment_on_call
+  - unneeded_parentheses_in_closure_argument
+  - extension_access_modifier
+  - pattern_matching_keywords
+  - force_unwrapping
+  
+
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+trailing_whitespace:
+    ignores_empty_lines: true
+    ignores_comments: true
+
+vertical_whitespace: # Limit vertical whitespace to a single empty line.
+    max_empty_lines: 2
+
+identifier_name:
+  excluded:
+    - id
