@@ -1,6 +1,19 @@
 # JSONDecoder-Keypath
 Add nested key path support to the Swift.JSONDecoder
 
+<!-- TOC -->
+
+- [JSONDecoder-Keypath](#jsondecoder-keypath)
+        - [Rationale](#rationale)
+        - [Usage](#usage)
+        - [Under the hood](#under-the-hood)
+        - [Installation](#installation)
+            - [Swift Package Manager:](#swift-package-manager)
+        - [Conclusion](#conclusion)
+        - [In the plans:](#in-the-plans)
+
+<!-- /TOC -->
+
 ### Rationale
 
 At the time of writing, I found that most of the popular frameworks (mostly network wrappers) when dealing with keypath do some terrible things.
