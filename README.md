@@ -1,8 +1,8 @@
 # JSONDecoder-Keypath
 
-[![CircleCI](https://img.shields.io/circleci/project/github/0111b/JSONDecoder-Keypath.svg)](https://circleci.com/gh/0111b/JSONDecoder-Keypath) [![Isues](https://img.shields.io/github/issues/0111b/JSONDecoder-Keypath.svg)](https://github.com/0111b/JSONDecoder-Keypath/issues) ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Swift Package Manager](https://img.shields.io/badge/spm-supported-blue.svg)
+[![CircleCI](https://img.shields.io/circleci/project/github/0111b/JSONDecoder-Keypath.svg)](https://circleci.com/gh/0111b/JSONDecoder-Keypath) [![Isues](https://img.shields.io/github/issues/0111b/JSONDecoder-Keypath.svg)](https://github.com/0111b/JSONDecoder-Keypath/issues) ![License](https://img.shields.io/badge/license-MIT-ff69b4.svg) ![Swift Package Manager](https://img.shields.io/badge/spm-supported-blue.svg) ![Cocoapods](https://img.shields.io/badge/cocoapods-supported-blue.svg)
 
-Add nested key path support to the Swift.JSONDecoder
+Add nested key path support to the Foundation.JSONDecoder
 
 <!-- TOC -->
 
@@ -10,9 +10,10 @@ Add nested key path support to the Swift.JSONDecoder
 - [Usage](#usage)
 - [Under the hood](#under-the-hood)
 - [Installation](#installation)
-    - [Swift Package Manager:](#swift-package-manager)
+    - [Swift Package Manager](#swift-package-manager)
+    - [Cocoapods](#cocoapods)
 - [Conclusion](#conclusion)
-- [In the plans:](#in-the-plans)
+- [Plans and improvements](#plans-and-improvements)
 
 <!-- /TOC -->
 
@@ -82,13 +83,20 @@ In this call `keypath` is stored in the `JSONDecoder.userInfo` and then standard
 
 ### Installation
 
-#### Swift Package Manager:
+#### Swift Package Manager
 
 Add the line `.Package(url: "https://github.com/0111b/JSONDecoder-Keypath.git")` to your `Package.swift`
+
+#### Cocoapods
+
+```Ruby
+    pod 'JSONDecoder-Keypath', :git => 'https://github.com/0111b/JSONDecoder-Keypath'
+```
 
 ### Conclusion
 Mostly this is a naive implementation of the custom object encoding and took from me no more than a few hours. But it is showing that we must think how we are working with provided API's and not be lazy to look under the hood
 
-### In the plans: 
+### Plans and improvements
 - [ ] Extend unit tests
-- [ ] Add cocoapods spec 
+- [x] Add cocoapods spec 
+- [ ] Add Carthage support
