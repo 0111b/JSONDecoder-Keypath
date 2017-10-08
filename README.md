@@ -1,16 +1,15 @@
 # JSONDecoder-Keypath
+
 Add nested key path support to the Swift.JSONDecoder
 
 <!-- TOC -->
-
-- [JSONDecoder-Keypath](#jsondecoder-keypath)
-        - [Rationale](#rationale)
-        - [Usage](#usage)
-        - [Under the hood](#under-the-hood)
-        - [Installation](#installation)
-            - [Swift Package Manager:](#swift-package-manager)
-        - [Conclusion](#conclusion)
-        - [In the plans:](#in-the-plans)
+- [Rationale](#rationale)
+- [Usage](#usage)
+- [Under the hood](#under-the-hood)
+- [Installation](#installation)
+    - [Swift Package Manager:](#swift-package-manager)
+- [Conclusion](#conclusion)
+- [In the plans:](#in-the-plans)
 
 <!-- /TOC -->
 
