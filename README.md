@@ -1,6 +1,6 @@
 # JSONDecoder-Keypath
 
-[![CircleCI](https://img.shields.io/circleci/project/github/0111b/JSONDecoder-Keypath.svg)](https://circleci.com/gh/0111b/JSONDecoder-Keypath) [![Isues](https://img.shields.io/github/issues/0111b/JSONDecoder-Keypath.svg)](https://github.com/0111b/JSONDecoder-Keypath/issues) ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-0.1.0-orange.svg)
+[![CircleCI](https://img.shields.io/circleci/project/github/0111b/JSONDecoder-Keypath.svg)](https://circleci.com/gh/0111b/JSONDecoder-Keypath) [![Isues](https://img.shields.io/github/issues/0111b/JSONDecoder-Keypath.svg)](https://github.com/0111b/JSONDecoder-Keypath/issues) ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Swift Package Manager](https://img.shields.io/badge/spm-supported-blue.svg)
 
 Add nested key path support to the Swift.JSONDecoder
 
