@@ -90,7 +90,7 @@ Add the line `.Package(url: "https://github.com/0111b/JSONDecoder-Keypath.git")`
 #### Cocoapods
 
 ```Ruby
-    pod 'JSONDecoder-Keypath', :git => 'https://github.com/0111b/JSONDecoder-Keypath'
+    pod 'JSONDecoder-Keypath'
 ```
 
 ### Conclusion
